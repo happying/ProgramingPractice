@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540DECAE1A17A095000405ED /* TwoGroupMerges.m in Sources */ = {isa = PBXBuildFile; fileRef = 540DECAD1A17A095000405ED /* TwoGroupMerges.m */; };
 		5452F6D51A1772D50085DF7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5452F6D41A1772D50085DF7D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		540DECAC1A17A095000405ED /* TwoGroupMerges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoGroupMerges.h; sourceTree = "<group>"; };
+		540DECAD1A17A095000405ED /* TwoGroupMerges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoGroupMerges.m; sourceTree = "<group>"; };
 		5452F6D11A1772D50085DF7D /* ProgramingPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgramingPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		5452F6D41A1772D50085DF7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				5452F6D41A1772D50085DF7D /* main.m */,
+				540DECAC1A17A095000405ED /* TwoGroupMerges.h */,
+				540DECAD1A17A095000405ED /* TwoGroupMerges.m */,
 			);
 			path = ProgramingPractice;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5452F6D51A1772D50085DF7D /* main.m in Sources */,
+				540DECAE1A17A095000405ED /* TwoGroupMerges.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +238,7 @@
 				5452F6DA1A1772D50085DF7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

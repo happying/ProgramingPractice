@@ -33,9 +33,10 @@
     return mergesArray;
 }
 
-void twoGroupMerges(int *a, int *b, int aLen, int bLen){
-    int i, j, k = 0;//i for a[],j for b[] and k for c[]
-    int c[aLen+bLen];
+NSInteger* twoGroupMerges(NSInteger *a, NSInteger *b, NSInteger aLen, NSInteger bLen){
+    NSInteger i, j, k = 0;//i for a[],j for b[] and k for c[]
+    NSInteger c[aLen+bLen];
+    NSInteger* final;//没有实际意义的参数，主要是用来消除warming，如果直接返回c的话，会有warming提示说，“ Address of stack memory associated with local variable 'c' returned”
     for (i=0,j=0; i<aLen&&j<bLen; ) {
         if (a[i] < b[j]) {
             c[k] = a[i];
@@ -57,9 +58,12 @@ void twoGroupMerges(int *a, int *b, int aLen, int bLen){
             c[k] = a[i];
         }
     }
-    for (int i = 0; i< aLen + bLen; i++) {
-        NSLog(@"%d",c[i]);
+    
+    for (int i = 0; i < aLen+bLen; i++) {
+        NSLog(@"%ld",(long)c[i]);
     }
+    final = c;
+    return final;
 }
 
 

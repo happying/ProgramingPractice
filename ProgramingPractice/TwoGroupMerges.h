@@ -12,6 +12,6 @@
 
 //将两个升序的NSArray数组合并为一个升序的NSMutableArray
 +(NSMutableArray*)twoArrayMergesWithFirstArray:(NSArray*)firstArray SecondArray:(NSArray*)secondArray;
-//将两个升序的intArray数组合并为一个并输出；
-void twoGroupMerges(int *a, int *b, int aLen, int bLen);
+//将两个升序的intArray数组合并为一个并返回头指针；
+NSInteger* twoGroupMerges(NSInteger *a, NSInteger *b, NSInteger aLen, NSInteger bLen);
 @end

@@ -9,18 +9,22 @@
 #import <Foundation/Foundation.h>
 #import <sys/time.h>
 #import "TwoGroupMerges.h"
+#import "YFCreator.h"
+
+
 
 #define GET_CARRAY_LENGTH(array,len){ len = (sizeof(array)/sizeof(array[0])); }
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int a[] = {1,3,5,7,9};
-        int b[] = {2,4,6,8,10,12};
-        int aLen, bLen;
-        GET_CARRAY_LENGTH(a, aLen);
-        GET_CARRAY_LENGTH(b, bLen);
-        twoGroupMerges(a, b, aLen, bLen);
-        NSArray* firstArray = [[NSArray alloc] initWithObjects:@"0", @"2", @"4", @"6", @"8", @"10", nil];
-        NSArray* secondArray = [NSArray arrayWithObjects:@"1", @"3", @"5", @"7", @"9", nil];
+        NSInteger aLen = 10, bLen = 10;
+        NSInteger* a = [YFCreater createRiseIntArrayFrom:11 setInterval:2 withLength:aLen];
+        NSInteger* b = [YFCreater createRiseIntArrayFrom:10 setInterval:2 withLength:bLen];
+
+        NSInteger* final = twoGroupMerges(a, b, aLen, bLen);
+        NSArray* firstArray = [YFCreater createRiseNSArrayFrom:0 setInterval:2 withLength:10];
+        NSArray* secondArray = [YFCreater createRiseNSArrayFrom:1 setInterval:2 withLength:10];
         NSArray* finalArray =  [TwoGroupMerges twoArrayMergesWithFirstArray:firstArray
                                                                 SecondArray:secondArray];
         NSLog(@"%@",finalArray);

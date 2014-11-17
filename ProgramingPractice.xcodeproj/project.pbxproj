@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5404A5301A18837E00DD9FCF /* YFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5404A52F1A18837E00DD9FCF /* YFCreator.m */; };
-		540DECAE1A17A095000405ED /* TwoGroupMerges.m in Sources */ = {isa = PBXBuildFile; fileRef = 540DECAD1A17A095000405ED /* TwoGroupMerges.m */; };
-		5452F6D51A1772D50085DF7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5452F6D41A1772D50085DF7D /* main.m */; };
+		5404A5311A18AD4300DD9FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5452F6D41A1772D50085DF7D /* main.m */; };
+		5404A5321A18AD4300DD9FCF /* TwoGroupMerges.m in Sources */ = {isa = PBXBuildFile; fileRef = 540DECAD1A17A095000405ED /* TwoGroupMerges.m */; };
+		5404A5331A18AD4300DD9FCF /* YFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5404A52F1A18837E00DD9FCF /* YFCreator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -128,9 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5452F6D51A1772D50085DF7D /* main.m in Sources */,
-				5404A5301A18837E00DD9FCF /* YFCreator.m in Sources */,
-				540DECAE1A17A095000405ED /* TwoGroupMerges.m in Sources */,
+				5404A5311A18AD4300DD9FCF /* main.m in Sources */,
+				5404A5321A18AD4300DD9FCF /* TwoGroupMerges.m in Sources */,
+				5404A5331A18AD4300DD9FCF /* YFCreator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -18,21 +18,18 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSInteger aLen = 10, bLen = 10;
-        NSInteger* a = [YFCreater createRiseIntArrayFrom:11 setInterval:2 withLength:aLen];
-        NSInteger* b = [YFCreater createRiseIntArrayFrom:10 setInterval:2 withLength:bLen];
-
-        NSInteger* final = twoGroupMerges(a, b, aLen, bLen);
-        NSArray* firstArray = [YFCreater createRiseNSArrayFrom:0 setInterval:2 withLength:10];
-        NSArray* secondArray = [YFCreater createRiseNSArrayFrom:1 setInterval:2 withLength:10];
+        NSArray* firstArray = [[[YFCreater alloc] init] createRiseNSArrayFrom:11 setInterval:2 withLength:10];
+        NSArray* secondArray = [[[YFCreater alloc]init] createRiseNSArrayFrom:1 setInterval:2 withLength:10];
         NSArray* finalArray =  [TwoGroupMerges twoArrayMergesWithFirstArray:firstArray
                                                                 SecondArray:secondArray];
-        NSLog(@"%@",finalArray);
+        (void)finalArray;
+        NSLog(@"%lu",sizeof(NSInteger));
+        NSMutableString* myMutableString = [[NSMutableString alloc] initWithString:@"this is a mutable string"];
+        NSString* myString = @"this is a mutable string";
+        NSRange* range = [];
         
     }
     return 0;
 }
-
-
 
 

@@ -10,6 +10,7 @@
 		5404A5311A18AD4300DD9FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5452F6D41A1772D50085DF7D /* main.m */; };
 		5404A5321A18AD4300DD9FCF /* TwoGroupMerges.m in Sources */ = {isa = PBXBuildFile; fileRef = 540DECAD1A17A095000405ED /* TwoGroupMerges.m */; };
 		5404A5331A18AD4300DD9FCF /* YFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5404A52F1A18837E00DD9FCF /* YFCreator.m */; };
+		54D3ACA01A1B328100B3A892 /* ChineseStudeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3AC9F1A1B328100B3A892 /* ChineseStudeng.m */; };
 		54F4DEB91A1AF16800D76478 /* YFPracticeNSRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4DEB81A1AF16800D76478 /* YFPracticeNSRange.m */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,11 @@
 		540DECAD1A17A095000405ED /* TwoGroupMerges.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoGroupMerges.m; sourceTree = "<group>"; };
 		5452F6D11A1772D50085DF7D /* ProgramingPractice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgramingPractice; sourceTree = BUILT_PRODUCTS_DIR; };
 		5452F6D41A1772D50085DF7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54D3AC991A1B2EC300B3A892 /* ProtocolChinese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProtocolChinese.h; path = ProtocolPractice/ProtocolChinese.h; sourceTree = "<group>"; };
+		54D3AC9B1A1B2F1B00B3A892 /* ProtocolStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProtocolStudent.h; path = ProtocolPractice/ProtocolStudent.h; sourceTree = "<group>"; };
+		54D3AC9C1A1B2F3C00B3A892 /* ProtocolChineseStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProtocolChineseStudent.h; path = ProtocolPractice/ProtocolChineseStudent.h; sourceTree = "<group>"; };
+		54D3AC9E1A1B328100B3A892 /* ChineseStudeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseStudeng.h; path = ProtocolPractice/ChineseStudeng.h; sourceTree = "<group>"; };
+		54D3AC9F1A1B328100B3A892 /* ChineseStudeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChineseStudeng.m; path = ProtocolPractice/ChineseStudeng.m; sourceTree = "<group>"; };
 		54F4DEB71A1AF16800D76478 /* YFPracticeNSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPracticeNSRange.h; sourceTree = "<group>"; };
 		54F4DEB81A1AF16800D76478 /* YFPracticeNSRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPracticeNSRange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +72,7 @@
 		5452F6D31A1772D50085DF7D /* ProgramingPractice */ = {
 			isa = PBXGroup;
 			children = (
+				54D3AC951A1B2CB700B3A892 /* PracticeProtocol */,
 				5452F6D41A1772D50085DF7D /* main.m */,
 				540DECAC1A17A095000405ED /* TwoGroupMerges.h */,
 				540DECAD1A17A095000405ED /* TwoGroupMerges.m */,
@@ -75,6 +82,18 @@
 				54F4DEB81A1AF16800D76478 /* YFPracticeNSRange.m */,
 			);
 			path = ProgramingPractice;
+			sourceTree = "<group>";
+		};
+		54D3AC951A1B2CB700B3A892 /* PracticeProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				54D3AC991A1B2EC300B3A892 /* ProtocolChinese.h */,
+				54D3AC9B1A1B2F1B00B3A892 /* ProtocolStudent.h */,
+				54D3AC9C1A1B2F3C00B3A892 /* ProtocolChineseStudent.h */,
+				54D3AC9E1A1B328100B3A892 /* ChineseStudeng.h */,
+				54D3AC9F1A1B328100B3A892 /* ChineseStudeng.m */,
+			);
+			name = PracticeProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +154,7 @@
 			files = (
 				5404A5311A18AD4300DD9FCF /* main.m in Sources */,
 				5404A5321A18AD4300DD9FCF /* TwoGroupMerges.m in Sources */,
+				54D3ACA01A1B328100B3A892 /* ChineseStudeng.m in Sources */,
 				54F4DEB91A1AF16800D76478 /* YFPracticeNSRange.m in Sources */,
 				5404A5331A18AD4300DD9FCF /* YFCreator.m in Sources */,
 			);

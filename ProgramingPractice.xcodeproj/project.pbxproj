@@ -10,7 +10,10 @@
 		5404A5311A18AD4300DD9FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5452F6D41A1772D50085DF7D /* main.m */; };
 		5404A5321A18AD4300DD9FCF /* TwoGroupMerges.m in Sources */ = {isa = PBXBuildFile; fileRef = 540DECAD1A17A095000405ED /* TwoGroupMerges.m */; };
 		5404A5331A18AD4300DD9FCF /* YFCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5404A52F1A18837E00DD9FCF /* YFCreator.m */; };
-		54D3ACA01A1B328100B3A892 /* ChineseStudeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3AC9F1A1B328100B3A892 /* ChineseStudeng.m */; };
+		54D3ACA01A1B328100B3A892 /* ChineseStudentWithProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3AC9F1A1B328100B3A892 /* ChineseStudentWithProtocol.m */; };
+		54D3ACA41A1B409100B3A892 /* Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACA31A1B409100B3A892 /* Chinese.m */; };
+		54D3ACA71A1B410900B3A892 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACA61A1B410900B3A892 /* Student.m */; };
+		54D3ACAA1A1B417C00B3A892 /* ChineseStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACA91A1B417C00B3A892 /* ChineseStudent.m */; };
 		54F4DEB91A1AF16800D76478 /* YFPracticeNSRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4DEB81A1AF16800D76478 /* YFPracticeNSRange.m */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +39,14 @@
 		54D3AC991A1B2EC300B3A892 /* ProtocolChinese.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProtocolChinese.h; path = ProtocolPractice/ProtocolChinese.h; sourceTree = "<group>"; };
 		54D3AC9B1A1B2F1B00B3A892 /* ProtocolStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProtocolStudent.h; path = ProtocolPractice/ProtocolStudent.h; sourceTree = "<group>"; };
 		54D3AC9C1A1B2F3C00B3A892 /* ProtocolChineseStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProtocolChineseStudent.h; path = ProtocolPractice/ProtocolChineseStudent.h; sourceTree = "<group>"; };
-		54D3AC9E1A1B328100B3A892 /* ChineseStudeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseStudeng.h; path = ProtocolPractice/ChineseStudeng.h; sourceTree = "<group>"; };
-		54D3AC9F1A1B328100B3A892 /* ChineseStudeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChineseStudeng.m; path = ProtocolPractice/ChineseStudeng.m; sourceTree = "<group>"; };
+		54D3AC9E1A1B328100B3A892 /* ChineseStudentWithProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseStudentWithProtocol.h; path = ProtocolPractice/ChineseStudentWithProtocol.h; sourceTree = "<group>"; };
+		54D3AC9F1A1B328100B3A892 /* ChineseStudentWithProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChineseStudentWithProtocol.m; path = ProtocolPractice/ChineseStudentWithProtocol.m; sourceTree = "<group>"; };
+		54D3ACA21A1B409000B3A892 /* Chinese.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chinese.h; path = MultipleInheritance/Chinese.h; sourceTree = "<group>"; };
+		54D3ACA31A1B409100B3A892 /* Chinese.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Chinese.m; path = MultipleInheritance/Chinese.m; sourceTree = "<group>"; };
+		54D3ACA51A1B410900B3A892 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Student.h; path = MultipleInheritance/Student.h; sourceTree = "<group>"; };
+		54D3ACA61A1B410900B3A892 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = MultipleInheritance/Student.m; sourceTree = "<group>"; };
+		54D3ACA81A1B417C00B3A892 /* ChineseStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseStudent.h; path = MultipleInheritance/ChineseStudent.h; sourceTree = "<group>"; };
+		54D3ACA91A1B417C00B3A892 /* ChineseStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChineseStudent.m; path = MultipleInheritance/ChineseStudent.m; sourceTree = "<group>"; };
 		54F4DEB71A1AF16800D76478 /* YFPracticeNSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPracticeNSRange.h; sourceTree = "<group>"; };
 		54F4DEB81A1AF16800D76478 /* YFPracticeNSRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPracticeNSRange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +81,7 @@
 		5452F6D31A1772D50085DF7D /* ProgramingPractice */ = {
 			isa = PBXGroup;
 			children = (
+				54D3ACA11A1B405100B3A892 /* MultipleInheritancePractice */,
 				54D3AC951A1B2CB700B3A892 /* PracticeProtocol */,
 				5452F6D41A1772D50085DF7D /* main.m */,
 				540DECAC1A17A095000405ED /* TwoGroupMerges.h */,
@@ -90,10 +100,23 @@
 				54D3AC991A1B2EC300B3A892 /* ProtocolChinese.h */,
 				54D3AC9B1A1B2F1B00B3A892 /* ProtocolStudent.h */,
 				54D3AC9C1A1B2F3C00B3A892 /* ProtocolChineseStudent.h */,
-				54D3AC9E1A1B328100B3A892 /* ChineseStudeng.h */,
-				54D3AC9F1A1B328100B3A892 /* ChineseStudeng.m */,
+				54D3AC9E1A1B328100B3A892 /* ChineseStudentWithProtocol.h */,
+				54D3AC9F1A1B328100B3A892 /* ChineseStudentWithProtocol.m */,
 			);
 			name = PracticeProtocol;
+			sourceTree = "<group>";
+		};
+		54D3ACA11A1B405100B3A892 /* MultipleInheritancePractice */ = {
+			isa = PBXGroup;
+			children = (
+				54D3ACA21A1B409000B3A892 /* Chinese.h */,
+				54D3ACA31A1B409100B3A892 /* Chinese.m */,
+				54D3ACA51A1B410900B3A892 /* Student.h */,
+				54D3ACA61A1B410900B3A892 /* Student.m */,
+				54D3ACA81A1B417C00B3A892 /* ChineseStudent.h */,
+				54D3ACA91A1B417C00B3A892 /* ChineseStudent.m */,
+			);
+			name = MultipleInheritancePractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5404A5311A18AD4300DD9FCF /* main.m in Sources */,
+				54D3ACAA1A1B417C00B3A892 /* ChineseStudent.m in Sources */,
+				54D3ACA41A1B409100B3A892 /* Chinese.m in Sources */,
 				5404A5321A18AD4300DD9FCF /* TwoGroupMerges.m in Sources */,
-				54D3ACA01A1B328100B3A892 /* ChineseStudeng.m in Sources */,
+				54D3ACA01A1B328100B3A892 /* ChineseStudentWithProtocol.m in Sources */,
+				54D3ACA71A1B410900B3A892 /* Student.m in Sources */,
 				54F4DEB91A1AF16800D76478 /* YFPracticeNSRange.m in Sources */,
 				5404A5331A18AD4300DD9FCF /* YFCreator.m in Sources */,
 			);

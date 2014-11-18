@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 yufu. All rights reserved.
 //
 
-#import "ChineseStudeng.h"
+#import "ChineseStudentWithProtocol.h"
 
 @implementation ChineseStudeng
 

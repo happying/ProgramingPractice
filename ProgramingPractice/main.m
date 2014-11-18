@@ -10,7 +10,8 @@
 #import <sys/time.h>
 #import "TwoGroupMerges.h"
 #import "YFCreator.h"
-
+#import "ChineseStudent.h"
+#import "ProtocolChineseStudent.h"
 
 
 #define GET_CARRAY_LENGTH(array,len){ len = (sizeof(array)/sizeof(array[0])); }
@@ -18,17 +19,19 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray* firstArray = [YFCreater createRiseNSArrayFrom:0 setInterval:2 withLength:10];
-        NSArray* secondArray = [YFCreater createRiseNSArrayFrom:1 setInterval:2 withLength:10];
-        NSArray* finalArray =  [TwoGroupMerges twoArrayMergesWithFirstArray:firstArray
-                                                                SecondArray:secondArray];
-        NSLog(@"%@",finalArray);
-        (void)finalArray;
-        NSMutableString* myMutableString = [[NSMutableString alloc] initWithString:@"that"];
-        (void)myMutableString;
-        NSArray* tmp = [YFCreater createRiseNSArrayFrom:1 setInterval:1 withLength:10];
-        (void)tmp;
-
+        ChineseStudent* student = [[ChineseStudent alloc] init];
+        
+//        BOOL B = [student conformsToProtocol:@protocol(ProtocolStudent)];
+//        if (B) {
+//            NSLog(@"YES");
+//        }
+//        else{
+//            NSLog(@"NO");
+//        }
+        
+        [student speakChinese];
+        
+    
         
     }
     return 0;

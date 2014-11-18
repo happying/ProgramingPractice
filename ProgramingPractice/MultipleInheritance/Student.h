@@ -1,5 +1,5 @@
 //
-//  ChineseStudeng.h
+//  Student.h
 //  ProgramingPractice
 //
 //  Created by yufu on 14/11/18.
@@ -7,9 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ProtocolChineseStudent.h"
+#import "ProtocolStudent.h"
 
-@interface ChineseStudeng : NSObject <ProtocolChineseStudent>
-
+@interface Student : NSObject <ProtocolStudent>
 
 @end

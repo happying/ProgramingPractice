@@ -10,7 +10,7 @@
 
 @interface YFCreater : NSObject
 //构建一个升序的以interval为间隔的，从num开始的，长度为length的NSArray
--(NSArray*)createRiseNSArrayFrom:(NSInteger)num
++(NSArray*)createRiseNSArrayFrom:(NSInteger)num
                             setInterval:(NSInteger)interval
                           withLength:(NSInteger)length;
 

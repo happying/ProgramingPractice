@@ -11,7 +11,7 @@
 
 @implementation YFCreater
 
--(NSArray *)createRiseNSArrayFrom:(NSInteger)num
++(NSArray *)createRiseNSArrayFrom:(NSInteger)num
                              setInterval:(NSInteger)interval
                            withLength:(NSInteger)length{
     

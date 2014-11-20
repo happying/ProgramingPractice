@@ -12,7 +12,8 @@
 #import "YFCreator.h"
 #import "ChineseStudent.h"
 #import "ProtocolChineseStudent.h"
-
+#import "BadStudent.h"
+#import "GoodStudent.h"
 
 #define GET_CARRAY_LENGTH(array,len){ len = (sizeof(array)/sizeof(array[0])); }
 
@@ -20,18 +21,11 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         ChineseStudent* student = [[ChineseStudent alloc] init];
-        
-//        BOOL B = [student conformsToProtocol:@protocol(ProtocolStudent)];
-//        if (B) {
-//            NSLog(@"YES");
-//        }
-//        else{
-//            NSLog(@"NO");
-//        }
-        
-        [student speakChinese];
-        
-    
+        BadStudent* badStudent = [[BadStudent alloc] initWithDelegate:student];
+        GoodStudent* goodStudent = [[GoodStudent alloc] init];
+        goodStudent.myDelegate = student;
+        [badStudent iCantButMyDelegaterCan];
+        [goodStudent iCantButSomeBadBoyCan];
         
     }
     return 0;

@@ -14,6 +14,8 @@
 		54D3ACA41A1B409100B3A892 /* Chinese.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACA31A1B409100B3A892 /* Chinese.m */; };
 		54D3ACA71A1B410900B3A892 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACA61A1B410900B3A892 /* Student.m */; };
 		54D3ACAA1A1B417C00B3A892 /* ChineseStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACA91A1B417C00B3A892 /* ChineseStudent.m */; };
+		54D3ACAE1A1B89D300B3A892 /* BadStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACAD1A1B89D300B3A892 /* BadStudent.m */; };
+		54D3ACB11A1B91D400B3A892 /* GoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D3ACB01A1B91D400B3A892 /* GoodStudent.m */; };
 		54F4DEB91A1AF16800D76478 /* YFPracticeNSRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4DEB81A1AF16800D76478 /* YFPracticeNSRange.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,10 @@
 		54D3ACA61A1B410900B3A892 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Student.m; path = MultipleInheritance/Student.m; sourceTree = "<group>"; };
 		54D3ACA81A1B417C00B3A892 /* ChineseStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChineseStudent.h; path = MultipleInheritance/ChineseStudent.h; sourceTree = "<group>"; };
 		54D3ACA91A1B417C00B3A892 /* ChineseStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChineseStudent.m; path = MultipleInheritance/ChineseStudent.m; sourceTree = "<group>"; };
+		54D3ACAC1A1B89D300B3A892 /* BadStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BadStudent.h; path = ProtocolPractice/BadStudent.h; sourceTree = "<group>"; };
+		54D3ACAD1A1B89D300B3A892 /* BadStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadStudent.m; path = ProtocolPractice/BadStudent.m; sourceTree = "<group>"; };
+		54D3ACAF1A1B91D400B3A892 /* GoodStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoodStudent.h; path = ProtocolPractice/GoodStudent.h; sourceTree = "<group>"; };
+		54D3ACB01A1B91D400B3A892 /* GoodStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoodStudent.m; path = ProtocolPractice/GoodStudent.m; sourceTree = "<group>"; };
 		54F4DEB71A1AF16800D76478 /* YFPracticeNSRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFPracticeNSRange.h; sourceTree = "<group>"; };
 		54F4DEB81A1AF16800D76478 /* YFPracticeNSRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFPracticeNSRange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,8 +87,9 @@
 		5452F6D31A1772D50085DF7D /* ProgramingPractice */ = {
 			isa = PBXGroup;
 			children = (
+				54D3ACAB1A1B734000B3A892 /* MultiThread */,
 				54D3ACA11A1B405100B3A892 /* MultipleInheritancePractice */,
-				54D3AC951A1B2CB700B3A892 /* PracticeProtocol */,
+				54D3AC951A1B2CB700B3A892 /* PracticeProtocolAndDelegate */,
 				5452F6D41A1772D50085DF7D /* main.m */,
 				540DECAC1A17A095000405ED /* TwoGroupMerges.h */,
 				540DECAD1A17A095000405ED /* TwoGroupMerges.m */,
@@ -94,7 +101,7 @@
 			path = ProgramingPractice;
 			sourceTree = "<group>";
 		};
-		54D3AC951A1B2CB700B3A892 /* PracticeProtocol */ = {
+		54D3AC951A1B2CB700B3A892 /* PracticeProtocolAndDelegate */ = {
 			isa = PBXGroup;
 			children = (
 				54D3AC991A1B2EC300B3A892 /* ProtocolChinese.h */,
@@ -102,8 +109,12 @@
 				54D3AC9C1A1B2F3C00B3A892 /* ProtocolChineseStudent.h */,
 				54D3AC9E1A1B328100B3A892 /* ChineseStudentWithProtocol.h */,
 				54D3AC9F1A1B328100B3A892 /* ChineseStudentWithProtocol.m */,
+				54D3ACAC1A1B89D300B3A892 /* BadStudent.h */,
+				54D3ACAD1A1B89D300B3A892 /* BadStudent.m */,
+				54D3ACAF1A1B91D400B3A892 /* GoodStudent.h */,
+				54D3ACB01A1B91D400B3A892 /* GoodStudent.m */,
 			);
-			name = PracticeProtocol;
+			name = PracticeProtocolAndDelegate;
 			sourceTree = "<group>";
 		};
 		54D3ACA11A1B405100B3A892 /* MultipleInheritancePractice */ = {
@@ -117,6 +128,13 @@
 				54D3ACA91A1B417C00B3A892 /* ChineseStudent.m */,
 			);
 			name = MultipleInheritancePractice;
+			sourceTree = "<group>";
+		};
+		54D3ACAB1A1B734000B3A892 /* MultiThread */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MultiThread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +197,11 @@
 				54D3ACAA1A1B417C00B3A892 /* ChineseStudent.m in Sources */,
 				54D3ACA41A1B409100B3A892 /* Chinese.m in Sources */,
 				5404A5321A18AD4300DD9FCF /* TwoGroupMerges.m in Sources */,
+				54D3ACAE1A1B89D300B3A892 /* BadStudent.m in Sources */,
 				54D3ACA01A1B328100B3A892 /* ChineseStudentWithProtocol.m in Sources */,
 				54D3ACA71A1B410900B3A892 /* Student.m in Sources */,
 				54F4DEB91A1AF16800D76478 /* YFPracticeNSRange.m in Sources */,
+				54D3ACB11A1B91D400B3A892 /* GoodStudent.m in Sources */,
 				5404A5331A18AD4300DD9FCF /* YFCreator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
